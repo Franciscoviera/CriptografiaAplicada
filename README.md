@@ -1,2 +1,2 @@
 # CriptografiaAplicada
-# Resolucion del trabajo Practico de Criptografia Aplicada
+# Resolucion del Trabajo Practico de Criptografia Aplicada
