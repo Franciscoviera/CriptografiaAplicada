@@ -1,6 +1,5 @@
 import hashlib
 
-# Hash esperado del archivo original dado por el enunciado
 hashEsperado = "944a1e869969dd8a4b64ca5e6ebc209a"
 
 
