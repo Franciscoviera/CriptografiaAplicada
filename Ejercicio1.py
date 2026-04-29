@@ -35,7 +35,7 @@ mensajeDescifradoRelleno = desencriptador.update(mensajeCifrado) + desencriptado
 sacaRelleno = padding.PKCS7(128).unpadder()
 mensajeDescifrado = sacaRelleno.update(mensajeDescifradoRelleno) + sacaRelleno.finalize()
 
-print("Ejercicio 1 - Cifrado AES en modo CBC")
+print("Ejercicio 1 Cifrado AES en modo CBC")
 print("Texto plano original: ", mensaje.decode())
 print("Clave: ", clave.decode())
 print("Vector Inicial: ", vectorInicial.hex())
