@@ -42,7 +42,7 @@ mensajeCifradoOFB = cifrarMensaje(mensaje, clave, modes.OFB(vectorInicialOFB))
 mensajeCifradoCFB = cifrarMensaje(mensaje, clave, modes.CFB(vectorInicialCFB))
 mensajeCifradoECB = cifrarMensaje(mensaje, clave, modes.ECB())  # ECB no usa vector inicial
 
-print("Ejercicio 2 - Comparacion de modos AES")
+print("Ejercicio 2 Comparacion de modos AES")
 print("Mensaje original: ", mensaje.decode())
 print("Clave: ", clave.decode())
 print()
